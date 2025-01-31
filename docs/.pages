@@ -1,0 +1,6 @@
+nav:
+    - Home: index.md
+    - Organization: org
+    - Flying Operations: flyops
+    - Personnel: pers
+    

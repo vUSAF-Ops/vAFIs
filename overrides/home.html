@@ -1,0 +1,52 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<link rel="stylesheet" href="assets/stylesheets/home.css">
+<!-- Hero -->
+<section class="container">
+    <div class="md-grid md-typeset">
+        <div class="hero">
+            <div class="hero-content">
+                <h1> Welcome! </h1>
+                    <p>Welcome to the vUSAF AFI Hub. You will find all information you need in regards to the vUSAF Operations here, excluding MQT Training documentations which are available via AETC.</p>
+                <a href="https://www.vusaf.us/vam/index.php" title="vUSAF Website" class="md-button">
+                    Back to vUSAF website.
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Page links -->
+
+<div class="lowerSection">
+    <div class="md-grid md-typeset">
+        <div class="feature">
+			<h2>Featured Changes</h2>
+			<div class="cards">
+				<div class="card">
+						<a href="">
+							<h3>New AFI Details</h3>
+
+							<p>
+								New AFIs added.
+							</p>
+						</a>
+				</div>
+						
+				<div class="card">
+					<a href="">
+						<h3>Search Function</h3>
+						<p>
+							Need to quickly find information? The search function can be used to search for words or phrases. Need to be more specific? Search with "quotes".
+						</p>
+					</a>
+				</div>			
+			</div>
+		</div>
+    </div>
+</div>
+
+{% endblock %}
+{% block content %}{% endblock %}
+
